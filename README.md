@@ -1,4 +1,4 @@
-# validate-zipcodes
+# Validate ZIP Codes with Regular Expressions
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
 Not every 5 digit number is automatically a zip code... 
