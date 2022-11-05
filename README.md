@@ -22,5 +22,5 @@ zipUS.test('00601') // returns true... zip code does exist
 Usage:
 CDN 
 ```JavaScript
-<script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://github.com/memorabilien/validate-zipcodes/raw/main/dist/validate-zipcodes.js" async></script>
+
 ```
