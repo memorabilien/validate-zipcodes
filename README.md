@@ -22,5 +22,5 @@ zipUS.test('00601') // returns true... zip code does exist
 Usage:
 CDN 
 ```JavaScript
-
+ // not availible yet
 ```
