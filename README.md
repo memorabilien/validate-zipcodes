@@ -6,7 +6,13 @@ Not every 5 digit number is automatically a zip code...
 As of now Regular Expression seem to be the fastest way of validating if a zip code acutally exists.
 
 
-As of now only the Regular Expressions for Germany and USA(5-Digit version) are availible. Although any 5 or 4 Digit number is possible. More coming soon...
+As of now only the Regular Expressions for 
+-Germany 
+-Austria
+-Swizerland
+-USA(5-Digit version)
+
+are availible. Although any 5 or 4 Digit number is possible. More coming soon...
 
 ## Example
 ```JavaScript
