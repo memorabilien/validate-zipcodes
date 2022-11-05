@@ -7,10 +7,10 @@ As of now Regular Expression seem to be the fastest way of validating if a zip c
 
 
 As of now only the Regular Expressions for 
--Germany 
--Austria
--Swizerland
--USA(5-Digit version)
+- Germany 
+- Austria
+- Swizerland
+- USA(5-Digit version)
 
 are availible. Although any 5 or 4 Digit number is possible. More coming soon...
 
