@@ -1,0 +1,25 @@
+{
+  "name": "val-zip",
+  "version": "1.0.2",
+  "description": "Validate zip codes fast and accurate! A Library of JavaScript Regular Expressions for validating if a specific zip code actually exists in a specific Country.",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memorabilien/validate-zipcodes.git"
+  },
+  "keywords": [
+    "validation",
+    "regex",
+    "regular-expression",
+    "zipcode"
+  ],
+  "author": "memorabilien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/memorabilien/validate-zipcodes/issues"
+  },
+  "homepage": "https://github.com/memorabilien/validate-zipcodes#readme"
+}
