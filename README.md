@@ -1,6 +1,6 @@
 # Validate ZIP Codes with Regular Expressions
 
-[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/package/val-zip) 
+[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/package/val-zip)
 
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
