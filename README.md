@@ -1,23 +1,23 @@
 # Validate ZIP Codes with Regular Expressions
 
-[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/package/val-zip)
+[![npm](https://img.shields.io/npm/v/val-zip)](https://www.npmjs.com/package/val-zip)
 
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
-Not every 5 digit number is automatically a zip code... As of now Regular Expression seem to be the fastest way of validating if a zip code acutally exists. No slow backend validation needed, just some fancy RegExp.
+Not every 5 digit number is automatically a zip code... As of now Regular Expression seem to be the fastest way of validating if a zip code actually exists. No slow backend validation needed, just some fancy RegExp.
 
 As of now only the Regular Expressions for
 
 * Germany
 * Austria
-* Swizerland
+* Switzerland
 * USA(5-Digit version)
 * Belgium
 * Denmark
 * Poland
 * Czechia
 
-are availible. Although any 5 or 4 Digit number is possible. More coming soon...
+are available. Although any 5 or 4 Digit number is possible. More coming soon...
 
 ## Usage
 
