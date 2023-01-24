@@ -1,5 +1,9 @@
 # Validate ZIP Codes with Regular Expressions
 
+```
+[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/github-buttons) 
+```
+
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
 Not every 5 digit number is automatically a zip code... As of now Regular Expression seem to be the fastest way of validating if a zip code acutally exists. No slow backend validation needed, just some fancy RegExp.
