@@ -40,7 +40,7 @@ var inputZip_2 = "00601"; //real
 
 
 valZip(inputZip_1, userCountry) // returns false
-valZip(inputZip_1, userCountry) // returns true
+valZip(inputZip_2, userCountry) // returns true
 
 
 ```
