@@ -14,7 +14,6 @@ As of now only the Regular Expressions for
 * USA(5-Digit version)
 * Belgium
 * Denmark
-* Poland
 * Czechia
 
 are available. Although any 5 or 4 Digit number is possible. More coming soon...
@@ -40,7 +39,7 @@ var inputZip_2 = "00601"; //real
 
 
 valZip(inputZip_1, userCountry) // returns false
-valZip(inputZip_1, userCountry) // returns true
+valZip(inputZip_2, userCountry) // returns true
 
 
 ```
