@@ -20,16 +20,24 @@ are available. Although any 5 or 4 Digit number is possible. More coming soon...
 
 ## Usage
 
-Download via Node Package Manager (NPM):
+##### Download via Node Package Manager (NPM):
 
 ```shell
 npm install val-zip
 ```
 
+##### Import via Content Delivery Network (CDN):
+
+```js
+<script src="https://unpkg.com/val-zip@1.0.5/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
+```
+
+
+
 ## Example
 
 ```javascript
-import { valZip } from "val-zip";
+const valZip = require("val-zip");
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
