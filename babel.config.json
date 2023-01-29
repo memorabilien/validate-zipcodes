@@ -1,0 +1,12 @@
+{
+ "plugins": ["@babel/plugin-transform-runtime"],
+ "presets": [
+    [
+        "@babel/preset-env",
+        {
+        "modules":"umd",
+        "browserslistEnv":">.01%, not dead, last 2 node major versions"
+        }
+    ]
+ ]
+}
