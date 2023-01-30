@@ -23,7 +23,6 @@
     "url": "https://github.com/memorabilien/validate-zipcodes/issues"
   },
   "scripts": {
-    "test": "mocha src/index.test.js --timeout 100000",
     "build": "babel src/index.js -d dist"
   },
   "devDependencies": {
