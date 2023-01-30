@@ -1,6 +1,6 @@
 {
   "name": "val-zip",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Validate zip codes fast and accurate! A Library of JavaScript Regular Expressions for validating if a specific zip code actually exists in a specific Country.",
   "main": "dist/index.js",
   "author": "memorabilien",
