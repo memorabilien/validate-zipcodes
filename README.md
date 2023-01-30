@@ -48,6 +48,16 @@ var inputZip_2 = "00601"; //real
 
 valZip(inputZip_1, userCountry) // returns false
 valZip(inputZip_2, userCountry) // returns true
-
-
 ```
+
+## Zip Code Sources
+
+| country       | last update |                                                               license                                                               |
+| ------------- | ----------- | :----------------------------------------------------------------------------------------------------------------------------------: |
+| Austria       | 04.01.2023  |                                                                 none                                                                 |
+| Belgium       | 21.11.2021  |                                                                 none                                                                 |
+| Switzerland   | 01.01.2023  | [CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode): [Die Schweizerische Post](https://swisspost.opendatasoft.com/pages/home/) |
+| Czechia       | 01.01.2023  |                                                                 none                                                                 |
+| Germany       | 01.06.2019  |                                                                 none                                                                 |
+| Denmark       | 22.06.2022  |                                                                 none                                                                 |
+| United States | 31.12.2020  |                                                                 none                                                                 |
