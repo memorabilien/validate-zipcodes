@@ -34,4 +34,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NPMACCESSTOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPMACCESSTOKEN: ${{secrets.NPMACCESSTOKEN}}
