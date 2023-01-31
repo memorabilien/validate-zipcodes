@@ -1,12 +1,9 @@
 const assert = require("assert").strict;
-const valZip = require("../dist/index.js");
+const valZip = require("../../dist/index.js");
 const fs = require("fs");
 
 describe("full check", function() {
     it("should return 0", function() {
-
-
-		
 
         let files;
 		let errors = [];
