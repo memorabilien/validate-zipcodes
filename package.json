@@ -27,12 +27,16 @@
 	"bugs": {
 		"url": "https://github.com/memorabilien/validate-zipcodes/issues"
 	},
+	
 	"scripts": {
 		"testLocal": "mocha src/__tests__/index.test.js --timeout 100000",
 		"test": "mocha src/__tests__/index.test.js",
 		"build": "babel src/index.js -d dist",
 		"postpublish": " ./src/postpublish"
 	},
+	"publishConfig": {
+	    "@memorabilien:registry": "https://registry.npmjs.org/"
+	  },
 	"devDependencies": {
 		"@babel/cli": "^7.20.7",
 		"@babel/core": "^7.20.12",
