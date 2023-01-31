@@ -41,7 +41,7 @@ import { valZip } from "val-zip";
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
-var userCountry = "US"; // options: "US","DE","AT","CH","BE","DK","PL","CZ" 
+var userCountry = "US"; // options: "US","DE","AT","CH","BE","DK","PL","CZ","NO","FI" 
 var inputZip_1 = "12345"; //fake 
 var inputZip_2 = "00601"; //real
 
@@ -52,12 +52,23 @@ valZip(inputZip_2, userCountry) // returns true
 
 ## Zip Code Sources
 
-| country       | last update |                                                               license                                                               |
-| ------------- | ----------- | :----------------------------------------------------------------------------------------------------------------------------------: |
-| Austria       | 04.01.2023  |                                                                 none                                                                 |
-| Belgium       | 21.11.2021  |                                                                 none                                                                 |
-| Switzerland   | 01.01.2023  | [CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode): [Die Schweizerische Post](https://swisspost.opendatasoft.com/pages/home/) |
-| Czechia       | 01.01.2023  |                                                                 none                                                                 |
-| Germany       | 01.06.2019  |                                                                 none                                                                 |
-| Denmark       | 22.06.2022  |                                                                 none                                                                 |
-| United States | 31.12.2020  |                                                                 none                                                                 |
+| country       | last update |                                                               license                                                               | source                                   |
+| ------------- | ----------- | :----------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------- |
+| Austria       | 04.01.2023  |                                                                 none                                                                 | Österreichische Post Aktiengesellschaft |
+| Belgium       | 21.11.2021  |                                                                 none                                                                 | Bpost                                    |
+| Switzerland   | 01.01.2023  | [CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode): [Die Schweizerische Post](https://swisspost.opendatasoft.com/pages/home/) | Die Schweizerische Post                  |
+| Czechia       | 01.01.2023  |                                                                 none                                                                 | Česká pošta                           |
+| Germany       | 01.06.2019  |                                                                 none                                                                 | Launix                                   |
+| Denmark       | 22.06.2022  |                                                                 none                                                                 | PostNord Danmark                         |
+| United States | 31.12.2020  |                                                                 none                                                                 | Internal Revenue Service, US Census      |
+| Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
+| Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
+
+Some Countries are missing, just beacuse the official zipcode database is either paywalled or entierly copyrighted.
+
+This is the List of countries I am unable to source data from:
+
+| country | limitation       | source                         |
+| ------- | ---------------- | ------------------------------ |
+| Poland  | only with permit | Poczta Polska Spółka Akcyjna |
+| Sweden  | paid only        | Postnummerservice Norden AB    |
