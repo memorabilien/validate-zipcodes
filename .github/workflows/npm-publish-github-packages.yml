@@ -10,7 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: validate-zipcodes-publish
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -34,4 +33,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          RELEASE_TOKEN: ${{secrets.RELEASE_TOKEN}}
+          RELEASE_TOKEN: ${{secrets.GITHUB_TOKEN}}
