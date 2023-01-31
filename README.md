@@ -41,7 +41,7 @@ import { valZip } from "val-zip";
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
-var userCountry = "US"; // options: "US","DE","AT","CH","BE","DK","PL","CZ" 
+var userCountry = "US"; // options: "US","DE","AT","CH","BE","DK","PL","CZ","NO","FI" 
 var inputZip_1 = "12345"; //fake 
 var inputZip_2 = "00601"; //real
 
@@ -63,8 +63,6 @@ valZip(inputZip_2, userCountry) // returns true
 | United States | 31.12.2020  |                                                                 none                                                                 | Internal Revenue Service, US Census      |
 | Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
 | Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
-
-
 
 Some Countries are missing, just beacuse the official zipcode database is either paywalled or entierly copyrighted.
 
