@@ -15,6 +15,8 @@ As of now only the Regular Expressions for
 * Belgium
 * Denmark
 * Czechia
+* Finland
+* Norway
 
 are available. Although any 5 or 4 Digit number is possible. More coming soon...
 
@@ -37,7 +39,7 @@ Import via Content Delivery Network (CDN):
 ```javascript
 import { valZip } from "val-zip";
 // alternative: const valZip = require("val-zip"); 
-// note: the require function nodejs specific 
+// note: the require function is nodejs specific 
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
@@ -64,11 +66,13 @@ valZip(inputZip_2, userCountry) // returns true
 | Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
 | Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
 
-Some Countries are missing, just beacuse the official zipcode database is either paywalled or entierly copyrighted.
+Some Countries are missing, just because the official zipcode database is either paywalled or entirely copyrighted.
 
 This is the List of countries I am unable to source data from:
 
-| country | limitation       | source                         |
-| ------- | ---------------- | ------------------------------ |
-| Poland  | only with permit | Poczta Polska Spółka Akcyjna |
-| Sweden  | paid only        | Postnummerservice Norden AB    |
+| country   | limitation       | source                                |
+| --------- | ---------------- | ------------------------------------- |
+| Poland    | only with permit | Poczta Polska Spółka Akcyjna        |
+| Sweden    | paid only        | Postnummerservice Norden AB           |
+| Australia | paid only        | Australia Post                        |
+| Spain     | paid only        | Sociedad Estatal Correos y Telegrafos |

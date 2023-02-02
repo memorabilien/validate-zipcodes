@@ -14,6 +14,7 @@ describe("Checking Build...", function () {
 			FI: ["FI-95974", "54950 ", "38720"],
 			NO: ["NO-9194", "1622 ", "0155"],
 			US: ["US-99662", "953 58", "180-85"],
+			IT: ["IT-66032", "870 10", "370-59"],
 		};
         const testCountries = {
 			AT: ["AT", "at", "at "],
@@ -25,6 +26,7 @@ describe("Checking Build...", function () {
 			FI: ["FI", "fi", "Fi "],
 			NO: ["NO", "no", "No "],
 			US: ["US", "us", "Us "],
+			IT: ["IT", "it", "It"],
 		};
         let errorCounter = 0;
         let acceptable = 0;
@@ -33,6 +35,7 @@ describe("Checking Build...", function () {
             testData[key].forEach((element,index) => {
                 if(!valZip(element, testCountries[key][index])){
                     errorCounter += 1;
+					console.log(element)
                 }
             });
         }

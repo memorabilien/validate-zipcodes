@@ -1,6 +1,6 @@
 {
 	"name": "val-zip",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "Validate zip codes fast and accurate! A Library of JavaScript Regular Expressions for validating if a specific zip code actually exists in a specific Country.",
 	"main": "dist/index.js",
 	"author": "memorabilien",
@@ -29,7 +29,7 @@
 	},
 	
 	"scripts": {
-		"testLocal": "mocha src/__tests__/index.test.js --timeout 100000",
+		"fullTest": "node src/__tests__/full.test.js",
 		"test": "mocha src/__tests__/index.test.js",
 		"build": "babel src/index.js -d dist",
 		"postpublish": " ./src/postpublish"
