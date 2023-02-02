@@ -32,7 +32,7 @@
 		"fullTest": "node src/__tests__/full.test.js",
 		"test": "mocha src/__tests__/index.test.js",
 		"build": "babel src/index.js -d dist",
-		"postpublish": " ./src/postpublish"
+		"after": " ./src/postpublish"
 	},
 	"publishConfig": {
 	    "@memorabilien:registry": "https://registry.npmjs.org/"

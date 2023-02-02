@@ -1,6 +1,6 @@
 # Validate ZIP Codes with Regular Expressions
 
-[![npm](https://img.shields.io/npm/v/val-zip)](https://www.npmjs.com/package/val-zip)
+[![npm](https://img.shields.io/npm/v/val-zip)](https://www.npmjs.com/package/val-zip)  [![Featured on Openbase](https://badges.openbase.com/js/featured/val-zip.svg?token=St6VkI/cJCMuM51Xw17TOzXwWgBt7vTL7lWoH32B40I=)](https://openbase.com/js/val-zip?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
 
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
@@ -65,6 +65,7 @@ valZip(inputZip_2, userCountry) // returns true
 | United States | 31.12.2020  |                                                                 none                                                                 | Internal Revenue Service, US Census      |
 | Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
 | Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
+| Italy         | 01.01.2022  |                                                                                                                                      | istat                                    |
 
 Some Countries are missing, just because the official zipcode database is either paywalled or entirely copyrighted.
 
