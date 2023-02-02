@@ -31,7 +31,7 @@ npm install val-zip
 Import via Content Delivery Network (CDN):
 
 ```js
-<script src="https://unpkg.com/val-zip@latest/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://unpkg.com/val-zip@latest/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/val-zip/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
