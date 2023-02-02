@@ -1,6 +1,6 @@
 # Validate ZIP Codes with Regular Expressions
 
-[![npm](https://img.shields.io/npm/v/val-zip)](https://www.npmjs.com/package/val-zip)  [![Featured on Openbase](https://badges.openbase.com/js/featured/val-zip.svg?token=St6VkI/cJCMuM51Xw17TOzXwWgBt7vTL7lWoH32B40I=)](https://openbase.com/js/val-zip?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
+[![npm](https://img.shields.io/npm/v/val-zip)](https://www.npmjs.com/package/val-zip)  [![Featured on Openbase](https://badges.openbase.com/js/featured/val-zip.svg?token=St6VkI/cJCMuM51Xw17TOzXwWgBt7vTL7lWoH32B40I=)](https://openbase.com/js/val-zip?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge) [![](https://data.jsdelivr.com/v1/package/npm/val-zip/badge?style=rounded)](https://www.jsdelivr.com/package/npm/val-zip)
 
 A Library of JavaScript Regular Expressions for validating if a specific Zip-code exists in a specific Country.
 
@@ -32,6 +32,7 @@ Import via Content Delivery Network (CDN):
 
 ```js
 <script src="https://unpkg.com/val-zip@latest/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://cdn.jsdelivr.net/npm/val-zip/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
 ## Example
