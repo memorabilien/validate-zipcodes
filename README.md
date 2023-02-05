@@ -32,20 +32,20 @@ npm install val-zip
 Import via Content Delivery Network (CDN):
 
 ```javascript
-<script type="module" src="https://cdn.skypack.dev/val-zip@latest" corrorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="https://cdn.skypack.dev/val-zip@latest" corossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/val-zip/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="module" src="https://unpkg.com/val-zip@latest" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-Note: CDN is still wip, so error may occour. In doubt use skypack cdn 
+Note: CDN is still wip, so error may occur. In doubt use skypack cdn
 
 ## Example
 
 ```javascript
-import valZip from "val-zip"; // make sure to use type="module" or ".mjs" file extention
+import valZip from "val-zip"; // make sure to use type="module" or ".mjs" file extension
 // alternative: const valZip = require("val-zip"); 
-// note: the require function is nodejs specific and is not available in a ESM or Browser enviroment.
-// make sure to use type="commonjs" or the ".cjs" file extention
+// note: the require function is nodejs specific and is not available in a ESM or Browser environment.
+// make sure to use type="commonjs" or the ".cjs" file extension
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
