@@ -1,0 +1,46 @@
+{
+   "plugins": [
+    ["@babel/plugin-commonjs"]
+   ],
+ "presets": [
+    [
+        "@babel/preset-env",
+        {
+         "targets":{},
+         "bugfixes":false,
+         "spec":false,
+         "modules":"umd",
+         "debug":false,
+         "include":[],
+         "exclude":[],
+         "useBuiltins":false,
+         "corejs":"3.27",
+         "forceAllTransforms":false,
+         "ignoreBrowserslistConfig":false,
+         "browserslistEnv":">.01%, not dead, last 2 node major versions",
+         "shippedProposals":false
+        }
+    ]
+ ],
+ "targets":{
+   "esmodules":true
+ },
+ "generatorOpts":{
+   "comments": true,
+   "concise":false,
+   "jsonCompatibleStrings":false,
+   "minified":false,
+   "retainFunctionParens": false,
+   "retainLines": false,
+   "sourceMaps":false
+ },
+ "parserOpts":{
+   "allowImportExportEverywhere": false,
+   "allowAwaitOutsideFunction":false,
+   "allowReturnOutsideFunction":false,
+   "allowSuperOutsideMethod":false,
+   "allowUndeclaredExports":false,
+   "attachComment":true,
+   "sourceType":"module"
+ }
+}

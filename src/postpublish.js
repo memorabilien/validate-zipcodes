@@ -1,4 +1,4 @@
-const fs = require("fs");
+import * as fs from "node:fs"
 
 let packageFile;
 let version;

@@ -1,6 +1,6 @@
-const assert = require("assert").strict;
-const valZip = require("../../dist/index.js");
-const fs = require("fs");
+import * as assert from "node:assert"
+import valZip from "../index"
+import * as fs from "node:fs"
 
 
 
