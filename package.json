@@ -1,6 +1,6 @@
 {
 	"name": "val-zip",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "Validate zip codes fast and accurate! A Library of JavaScript Regular Expressions for validating if a specific zip code actually exists in a specific Country.",
 	"author": "memorabilien",
 	"license": "MIT",
@@ -46,7 +46,7 @@
 		"test": "mocha src/__tests__/valZip.test.js",
 		"roll": "rollup -c",
 		"build": "babel ./src/index.js -d dist",
-		"after": " ./src/postpublish.js"
+		"after": "node ./src/postpublish.js"
 	},
 	"publishConfig": {
 		"@memorabilien:registry": "https://registry.npmjs.org/"
