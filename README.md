@@ -17,6 +17,7 @@ As of now only the Regular Expressions for
 * Czechia
 * Finland
 * Norway
+* Italy
 
 are available. Although any 5 or 4 Digit number is possible. More coming soon...
 
@@ -30,23 +31,27 @@ npm install val-zip
 
 Import via Content Delivery Network (CDN):
 
-```js
-<script src="https://unpkg.com/val-zip@latest/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/val-zip/dist/index.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```html
+<script type="module" src="https://cdn.skypack.dev/val-zip@latest" corossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/val-zip@latest/dist/val-zip.umd.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="https://unpkg.com/val-zip@1.0.12/dist/va-zip.udm.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
+
+Note: CDN is still wip, so error may occur. In doubt use skypack cdn
 
 ## Example
 
 ```javascript
-import { valZip } from "val-zip";
+import valZip from "val-zip"; // make sure to use type="module" or ".mjs" file extension
 // alternative: const valZip = require("val-zip"); 
-// note: the require function is nodejs specific 
+// note: the require function is nodejs specific and is not available in a ESM or Browser environment.
+// make sure to use type="commonjs" or the ".cjs" file extension
 
 // let's say a random user puts in a zipcode somehow and you want to validate if the zip code exists.
 
-var userCountry = "US"; // options: "US","DE","AT","CH","BE","DK","PL","CZ","NO","FI" 
-var inputZip_1 = "12345"; //fake 
-var inputZip_2 = "00601"; //real
+var userCountry = "US"; //  ISO 3166 Country Code; string
+var inputZip_1 = "12345"; // fake, this zipcode does NOT exist in the United States 
+var inputZip_2 = "00601"; // reak, exists
 
 
 valZip(inputZip_1, userCountry) // returns false
@@ -66,7 +71,7 @@ valZip(inputZip_2, userCountry) // returns true
 | United States | 31.12.2020  |                                                                 none                                                                 | Internal Revenue Service, US Census      |
 | Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
 | Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
-| Italy         | 01.01.2022  |                                                                                                                                      | istat                                    |
+| Italy         | 01.01.2022  |                                                                 wip                                                                 | wip                                      |
 
 Some Countries are missing, just because the official zipcode database is either paywalled or entirely copyrighted.
 
