@@ -35,6 +35,11 @@ Import via Content Delivery Network (CDN):
 <script type="module" src="https://cdn.skypack.dev/val-zip@latest" corossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/val-zip@latest/dist/val-zip.umd.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="module" src="https://unpkg.com/val-zip@1.0.12/dist/va-zip.udm.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!----------------------------------- or -------------------------------------------------->
+<script type="module">
+ import valZip from "https://cdn.skypack.dev/val-zip@latest";
+  //...
+</script>
 ```
 
 Note: CDN is still wip, so error may occur. In doubt use skypack cdn
