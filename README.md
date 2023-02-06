@@ -6,7 +6,7 @@ A Library of JavaScript Regular Expressions for validating if a specific Zip-cod
 
 Not every 5 digit number is automatically a zip code... As of now Regular Expression seem to be the fastest way of validating if a zip code actually exists. No slow backend validation needed, just some fancy RegExp.
 
-So Why val-zip? Because it is free for commercial use and it is super fast and light weight with only 305kB size.
+So Why val-zip? Because it is free for commercial use and it is super fast and light weight with only 448kB size.
 
 ![img](./.assets/val-zip.svg)
 
@@ -33,7 +33,7 @@ Note: CDN is still wip, so error may occur. In doubt use skypack cdn
 ## Example
 
 ```javascript
-import valZip from "val-zip"; // make sure to use type="module" or ".mjs" file extension
+import valZip from "val-zip"; // make sure to use type="module" or the ".mjs" file extension
 // alternative: const valZip = require("val-zip"); 
 // note: the require function is nodejs specific and is not available in a ESM or Browser environment.
 // make sure to use type="commonjs" or the ".cjs" file extension
