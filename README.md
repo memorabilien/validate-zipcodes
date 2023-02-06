@@ -47,7 +47,7 @@ import valZip from "val-zip"; // make sure to use type="module" or the ".mjs" fi
 
 var userCountry = "US"; //  ISO 3166 Country Code; string
 var inputZip_1 = "12345"; // fake, this zipcode does NOT exist in the United States 
-var inputZip_2 = "00601"; // reak, exists
+var inputZip_2 = "00601"; // real, exists
 
 
 valZip(inputZip_1, userCountry) // returns false
