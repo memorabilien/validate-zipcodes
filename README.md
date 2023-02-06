@@ -6,12 +6,14 @@ A Library of JavaScript Regular Expressions for validating if a specific Zip-cod
 
 Not every 5 digit number is automatically a zip code... As of now Regular Expression seem to be the fastest way of validating if a zip code actually exists. No slow backend validation needed, just some fancy RegExp.
 
-As of now only the Regular Expressions for
+So Why val-zip? Because it is free for commercial use and it is super fast and light weight with only 305kB size.
+
+As of now the Regular Expressions for
 
 * Germany
 * Austria
 * Switzerland
-* USA(5-Digit version)
+* USA (5-Digit version)
 * Belgium
 * Denmark
 * Czechia
@@ -19,7 +21,7 @@ As of now only the Regular Expressions for
 * Norway
 * Italy
 
-are available. Although any 5 or 4 Digit number is possible. More coming soon...
+are available with more coming asap.
 
 ## Usage
 
@@ -60,6 +62,8 @@ valZip(inputZip_2, userCountry) // returns true
 
 ## Zip Code Sources
 
+Note: All data is heavily modified and does not resemble the original data base at all
+
 | country       | last update |                                                               license                                                               | source                                   |
 | ------------- | ----------- | :----------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------- |
 | Austria       | 04.01.2023  |                                                                 none                                                                 | Österreichische Post Aktiengesellschaft |
@@ -71,7 +75,7 @@ valZip(inputZip_2, userCountry) // returns true
 | United States | 31.12.2020  |                                                                 none                                                                 | Internal Revenue Service, US Census      |
 | Norway        | 01.10.2022  |                                                                 none                                                                 | Osten Norge AS                         |
 | Finland       | 30.01.2023  |                                                                 none                                                                 | Posti Group Oy                           |
-| Italy         | 01.01.2022  |                                                                 wip                                                                 | wip                                      |
+| Italy         | 26.11.2020  |                                                                 none                                                                 | Eurostat                                 |
 
 Some Countries are missing, just because the official zipcode database is either paywalled or entirely copyrighted.
 
@@ -83,3 +87,8 @@ This is the List of countries I am unable to source data from:
 | Sweden    | paid only        | Postnummerservice Norden AB           |
 | Australia | paid only        | Australia Post                        |
 | Spain     | paid only        | Sociedad Estatal Correos y Telegrafos |
+
+<hr />
+
+MIT License   
+Copyright (c) 2022-today Leonhard Maier
