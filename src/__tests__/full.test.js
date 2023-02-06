@@ -1,5 +1,4 @@
-import * as assert from "node:assert"
-import valZip from "../index"
+import valZip from "../../dist/val-zip.js"
 import * as fs from "node:fs"
 
 

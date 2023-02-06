@@ -1,5 +1,5 @@
 import * as assert from "node:assert"
-import valZip from "../index"
+import valZip from "../../dist/val-zip.js"
 
 
 describe("Checking Build...", function () {
@@ -16,6 +16,12 @@ describe("Checking Build...", function () {
 			NO: ["NO-9194", "1622 ", "0155"],
 			US: ["US-99662", "953 58", "180-85"],
 			IT: ["IT-66032", "870 10", "370-59"],
+			EE:["EE-78314","904 30","746-24"],
+			ES:["ES-30370","050 71","081-96"],
+			LU:["LU-4119","121 0","6311-"],
+			IS:["IS-105","2 00","625-"],
+			FR:["FR-63620","987 50","694-50"]
+
 		};
         const testCountries = {
 			AT: ["AT", "at", "at "],
@@ -28,6 +34,11 @@ describe("Checking Build...", function () {
 			NO: ["NO", "no", "No "],
 			US: ["US", "us", "Us "],
 			IT: ["IT", "it", "It"],
+			EE:["EE","ee","Ee"],
+			ES:["ES","es","Es"],
+			LU:["LU","lu","L  u"],
+			IS:["IS","is","Is"],
+			FR:["FR","fr","Fr"]
 		};
         let errorCounter = 0;
         let acceptable = 0;
